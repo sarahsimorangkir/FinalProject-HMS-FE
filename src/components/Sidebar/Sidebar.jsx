@@ -28,7 +28,7 @@ const menuItems = [
       { name: "Outpatient Session", to: `/manage/outpatient` },
     ],
   },
-  { name: "Recipe", to: `/recipe`, icon: "/assets/img/icon/recipeIcon.png" },
+  { name: "Recipe", to: `/recipes`, icon: "/assets/img/icon/recipeIcon.png" },
 ];
 
 const Sidebar = (props) => {

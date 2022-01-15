@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./dashInfo.css";
 
 export default function DashInfo() {

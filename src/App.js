@@ -16,6 +16,8 @@ import ManageOutpatient from "./pages/manageOutpatient/ManageOutpatient";
 import NewOutpatient from "./pages/newOutpatient/NewOutpatient";
 import Outpatient from "./pages/outpatient/Outpatient";
 import FormLogin from "./pages/login/Form";
+import RecipeList from "./pages/recipeList/RecipeList";
+import Recipe from "./pages/recipe/Recipe";
 
 function App() {
   return (
@@ -68,6 +70,12 @@ function App() {
               </Route>
               <Route path="/newOutpatient">
                 <NewOutpatient />
+              </Route>
+              <Route path="/recipes">
+                <RecipeList />
+              </Route>
+              <Route path="/recipe/:recipeId">
+                <Recipe />
               </Route>
             </Switch>
           </div>
